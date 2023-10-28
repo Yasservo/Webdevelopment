@@ -1,0 +1,17 @@
+/* Style for hyperlinks with icons */
+a.link-with-icon {
+    align-items: center; /* Vertically align the text and the icon */
+    text-decoration: none; /* Remove the default underline for links */
+    color: #0074d9; /* Change the text color */
+}
+
+a.link-with-icon::before {
+    content: ""; /* Create an empty content element */
+    display: inline-block;
+    width: 20px; /* Adjust the width of the icon */
+    height: 20px; /* Adjust the height of the icon */
+    background-image: url('../Image/hyperlink.png'); /* Specify the path to your image */
+    background-size: cover; /* Scale the image to cover the element */
+    margin-right: 5px; /* Adjust the spacing between the icon and text */
+    vertical-align: middle; /* Align the icon vertically to the middle */
+}

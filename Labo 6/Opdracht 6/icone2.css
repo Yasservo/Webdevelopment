@@ -1,0 +1,23 @@
+ul.checklist {
+    list-style: none; /* Verwijder de standaard lijstmarkeringen */
+    padding-left: 0; /* Verwijder de standaard inspringing van lijsten */
+}
+
+/* Stijl voor checklistitems */
+ul.checklist li {
+    display: flex; /* Gebruik flexbox om de afbeelding en de tekst uit te lijnen */
+    align-items: center; /* Verticaal centreren van afbeelding en tekst */
+    margin-bottom: 10px; /* Voeg wat ruimte tussen items toe */
+}
+
+/* Stijl voor aangevinkte checklistitems */
+ul.checklist li.checked {
+    color: #0074d9; /* Pas de tekstkleur aan voor aangevinkte items */
+}
+
+/* Stijl voor afbeeldingen in de checklist */
+ul.checklist img {
+    width: 20px; /* Pas de breedte van de afbeeldingen aan */
+    height: 20px; /* Pas de hoogte van de afbeeldingen aan */
+    margin-right: 10px; /* Voeg wat ruimte tussen de afbeelding en de tekst toe */
+}
