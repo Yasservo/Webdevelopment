@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Layout</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .column {
+            width: 50%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-sizing: border-box; /* Voorkomt dat de border en padding de totale breedte beïnvloeden */
+            float: left; /* Plaatst de kolommen naast elkaar */
+        }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<section class="column">
+    <h2>Section 1</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt turpis vel urna ullamcorper, vel suscipit ex aliquam.
+        ...
+    </p>
+</section>
+
+<section class="column">
+    <h2>Section 2</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt turpis vel urna ullamcorper, vel suscipit ex aliquam.
+        ...
+    </p>
+</section>
+
+<div class="clearfix"></div>
+
+</body>
+</html>

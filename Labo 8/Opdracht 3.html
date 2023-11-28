@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 3</title>
+</head>
+<body>
+<h1> Opdracht 3 </h1>
+<p><strong>Waarom staat de tekst in de blokken horizontaal gecentreerd?</strong><br>
+    Standaard wordt tekst in een blok horizontaal gecentreerd. Dit is het standaardgedrag voor inline elementen zoals tekst in een &lt;div&gt; zonder specifieke styling voor de uitlijning.</p>
+
+<p><strong>Waarom heeft <code>vertical-align: center</code> geen effect? Wat doet <code>vertical-align</code> dan wel?</strong><br>
+    <code>vertical-align</code> heeft geen waarde zoals "center". De eigenschap <code>vertical-align</code> wordt gebruikt voor het aanpassen van de verticale uitlijning van inline of inline-block elementen ten opzichte van de omliggende tekst of andere inline elementen. Het heeft waarden zoals "top", "middle", "bottom", enzovoort. Echter, <code>vertical-align</code> heeft geen invloed op de uitlijning van blok-elementen.</p>
+
+<p><strong>Simpele manier om tekst verticaal te centreren:</strong><br>
+    De eenvoudigste manier om een enkele regel tekst verticaal te centreren is door gebruik te maken van <code>line-height</code>. Stel de <code>line-height</code> in op gelijke of grotere waarde dan de hoogte van het blok.</p>
+
+<p><strong>Truc voor het verticaal centreren van meerdere regels:</strong><br>
+    Om meerdere regels tekst te centreren, wordt vaak de "table cell" truc gebruikt. Hierbij worden de tekstblokken behandeld als tabelcellen, waardoor ze eenvoudig verticaal gecentreerd kunnen worden.</p>
+
+<p><strong>Waarom heeft de regel voor class 'tall' voorrang bij het instellen van de height?</strong><br>
+    De regel voor class 'tall' heeft waarschijnlijk voorrang omdat deze specifieker is dan de generieke regel die eerder wordt gedefinieerd. CSS geeft prioriteit aan regels op basis van specificiteit en de volgorde waarin ze worden gedefinieerd. Specifieke regels hebben over het algemeen voorrang boven algemene regels.</p>
+
+<p><strong>Bevestiging van het vermoeden en terugzetten naar de oorspronkelijke plaats:</strong><br>
+    Om het vermoeden te bevestigen, moet je naar de specifieke regels kijken die de height instellen voor class 'tall' in 'styles.css'. Je kunt de specificiteit van de regels vergelijken en aanpassingen maken om te zien hoe het gedrag verandert. Vergeet niet om alles terug te zetten naar de oorspronkelijke staat na het testen.</p>
+</body>
+</html>
