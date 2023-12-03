@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: lavender;
+
+}
+
+header{
+    text-align: center;
+    position: relative;
+    color: darkblue;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: #00f3f3;
+    height: 90px;
+    font-size: 25px;
+}
+
+article {
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+    background-color: lightcyan;
+    font-size: 25px;
+}
